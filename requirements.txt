@@ -10,3 +10,4 @@ openpyxl
 feedparser
 lxml
 selenium
+streamlit-keyup==0.3.0
