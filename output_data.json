@@ -1,0 +1,102 @@
+{
+  "company": "Eicher Motors",
+  "source_pdf": "AR.pdf",
+  "profit_and_loss": {
+    "source_page": 318,
+    "revenue_from_operations": 18451.46,
+    "other_income": 1408.65,
+    "total_income": 19860.11,
+    "raw_material_cost": 31.0,
+    "employee_expenses": 34.0,
+    "finance_costs": 35.0,
+    "depreciation": 36.0,
+    "other_expenses": 37.0,
+    "total_expenses": 14391.55,
+    "profit_before_tax": 5468.56,
+    "tax_expense": 1189.3,
+    "net_profit": 4279.26,
+    "eps_basic": 156.15
+  },
+  "balance_sheet": {
+    "source_page": 317,
+    "total_assets": 24086.4,
+    "total_non_current": 17298.24,
+    "total_current_assets": 6788.16,
+    "cash_equivalents": 15.0,
+    "total_equity": 18499.84,
+    "total_borrowings": 21.0,
+    "trade_payables": 22.0,
+    "total_liabilities": 5586.56
+  },
+  "cash_flow": {
+    "source_page": 320,
+    "operating_cashflow": 3829.94,
+    "investing_cashflow": -2477.94,
+    "financing_cashflow": -1314.73,
+    "capex": null,
+    "dividend_paid": -1397.45
+  },
+  "ratios": {
+    "ebitda_cr": 5539.56,
+    "opm_percent": 30.02,
+    "pat_margin_pct": 23.19,
+    "roe_pct": 23.13,
+    "debt_to_equity": 0.001,
+    "asset_turnover": 0.77,
+    "cash_conversion_pct": 89.5
+  },
+  "piotroski_score": 8,
+  "piotroski_checks": {
+    "ROA positive (net profit / assets > 0)": "\u2713 Yes",
+    "Operating cash flow positive": "\u2713 Yes",
+    "Cash flow > Net profit (quality earnings)": "\u2717 No",
+    "Debt to equity < 0.5": "\u2713 Yes",
+    "Finance cost < 2% of revenue (low leverage)": "\u2713 Yes",
+    "OPM > 10%": "\u2713 Yes",
+    "PAT margin > 5%": "\u2713 Yes",
+    "Other income < 15% of revenue": "\u2713 Yes",
+    "Positive net worth (equity > 0)": "\u2713 Yes"
+  },
+  "multiyear_trends": {
+    "revenue_page127": [
+      3829.94,
+      16089.9,
+      18499.84,
+      18451.46,
+      2657.62,
+      1395.0,
+      1919.0,
+      2331.0
+    ],
+    "pat_page128": [
+      4279.26,
+      3334.54,
+      1330.0,
+      1586.0,
+      2623.0,
+      3749.0,
+      4279.0,
+      2423.0
+    ],
+    "revenue_page202": [
+      2893.0,
+      18870.0,
+      4712.0,
+      4327.0,
+      1002.0,
+      1781.0,
+      2172.0,
+      3444.0
+    ],
+    "data_page203": [
+      16376.0,
+      3980.0,
+      1024.0,
+      1690.0,
+      1572.0,
+      2847.0,
+      3724.0,
+      3980.0
+    ]
+  }
+}
