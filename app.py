@@ -10,6 +10,7 @@ Install once:
 Keep forensics_engine.py in the same folder.
 """
 
+from st_keyup import st_keyup
 import streamlit as st
 import pandas as pd
 import json, re, os, sqlite3, datetime, io, math
@@ -915,8 +916,11 @@ with st.sidebar:
     st.markdown("## 📊 Equity Research")
     st.markdown("---")
     st.markdown("### 🔍 Search Company")
-    q = st.text_input("Company name or NSE ticker",
-                       placeholder="e.g. Solar, EICHERMOT, ITC", label_visibility="collapsed")
+    q = st_keyup(
+    "Company name or NSE ticker",
+    placeholder="e.g. Solar, EICHERMOT, ITC",
+    key="company_search"
+)
     sel_ticker = None
     if q and len(q) >= 2 and SCRAPER_OK:
         with st.spinner(""):
