@@ -4,26 +4,61 @@ All notable changes to the Equity Research Terminal project will be documented i
 
 ---
 
-## Version 1.0.1
+# Version 1.0.1
 
-### Fixed
-
-- BUG-001: Implemented live company search autocomplete using `st_keyup`.
-
-### Deployment
-
-- Added `streamlit-keyup==0.3.0` to `requirements.txt`.
-- Fixed Streamlit Community Cloud deployment issue.
-
-### Testing
-
-- Smoke Testing completed.
-- Retesting completed.
-- Regression Testing executed.
+Release Date: July 2026
 
 ---
 
-## Upcoming
+## Fixed
 
-- BUG-002: Search Everywhere opens incorrect company.
-- BUG-003: Standalone financial statement not loading.
+### CS-BUG-001
+
+**Module:** Company Search
+
+Implemented live autocomplete using `st_keyup()`.
+
+Users now receive company suggestions while typing without pressing Enter.
+
+---
+
+## Deployment
+
+Added:
+
+- streamlit-keyup
+
+Updated:
+
+- requirements.txt
+
+Resolved deployment issue on Streamlit Community Cloud.
+
+---
+
+## QA
+
+Smoke Testing : PASS
+
+Retesting : PASS
+
+Regression Testing : PASS
+
+---
+
+## Open Defects
+
+### Company Search
+
+- CS-BUG-002
+  Search Everywhere opens incorrect company.
+
+- CS-BUG-003
+  Whitespace-only input displays invalid suggestion.
+
+---
+
+### Financial Statements
+
+- FS-BUG-001
+  Standalone financial statement not loading.
